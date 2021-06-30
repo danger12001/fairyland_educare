@@ -1,155 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fairyland Educare</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
+
 <body>
-  <nav class="white" role="navigation">
+  <nav class="green" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <div id="logo-container" href="#" class="brand-logo logo"><br/></div>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a class="white-text" href="#about">About Us</a></li>
+        <li><a class="white-text" href="#mission">Our Mission</a></li>
+        <li><a class="white-text" href="#staff">Our Staff</a></li>
+        <li><a class="white-text" href="gallary.html">Gallary</a></li>
+        <li><a class="white-text" href="#contact">Contact Us</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#staff">Our Staff</a></li>
+        <li><a href="gallary.html">Gallary</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"  style="color: white">menu</i></a>
+      
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
+  <div>
+    <div class="carousel carousel-slider center section-fixed">
+      <a class="carousel-item" href="#one!"><img src="./public/images/carousel/Banner1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="./public/images/carousel/Banner2.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="./public/images/carousel/Banner3.jpg"></a>
     </div>
-    <div class="parallax"><img src="./public/images/background1.jpg" alt="Unsplashed background img 1"></div>
+
   </div>
 
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="./public/images/background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
+  <div id="about" class="container">
     <div class="section">
 
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h4>About Us</h4>
+          <p class="left-align light">
+            We strive to deliver a none racial Education and to make our schools a tranquil haven away from home for all
+            our children.<br /> Privacy is respected and protected at all times. We offer high quality CAPS based
+            education to our children.
+
+            <br />
+            We are two schools and are operating for seven years now, we pride ourselves in the quality of work and
+            children we deliver to other schools when they graduate.
+            <br />
+
+
+            <br /> Our purpose is to ensure every child is equipped to act as an independent individual and to be able
+            to shine above the other in class. We teach our children to do and think for themselves and always to be
+            honest.
+            <br /> Our policy at the school is DO UNTO OTHER AS YOU WISH TO BE DONE TO YOURSELF.
+            <br />
+            <br />
+
+            Our children are the future of this land and have to be equipped to deal fairly with other and to be strong,
+            to be able to do and think for themselves.
+            <br />
+            A well-disciplined child and well educated child has a secured future and can go out into the world by being
+            positive AND WE ALWAYS TELL THEM TO REACH FOR THE STARS THEY ARE WITHIN YOUR GRASP ONLY IF YOU TRY HARD
+            ENOUGH AND WANT IT BADLY.
+          </p>
         </div>
       </div>
 
     </div>
   </div>
+
+
 
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="./public/images/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="./public/images/background4.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+
+  <div id="mission" class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Our Mission</h4>
+          <p class="left-align light">
+            Is to see every child we educate go forward in life and to ensure we equipped them good enough. We believe
+            if we done right they cannot go wrong.
+            <br />
+            <br />
+
+            We have to work hard to deliver only the best for the future, and to make sure our children are equipped
+            when they leave us to take on life with both hands a stay positive and true to themselves and their parents
+            that gave them the opportunity to be educated.
+            <br />
+            <br />
+
+            Education in an Educare is the beginning of a child’s foundation so we at Fairyland must ensure we laid a
+            strong foundation to show other that Fairyland is firm, hardworking and a good beginning for any child.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./public/images/background5.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+
+  <div id="staff" class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Our Staff</h4>
+          <div class="row">
+            <div class="col s12 m4" href="#one!">
+              <img src="./public/images/staff/25541.png">
+              <h5>Monica Myburgh</h5>
+              <h6>Principal</h6>
+
+            </div>
+            <div class="col s12 m4" href="#one!">
+              <img  src="./public/images/staff/25616.png">
+              <h5>Dianne Abrahams</h5>
+              <h6>Vice Principal / 4 to 5 Teacher</h6>
+
+            </div>
+            <div class="col s12 m4" href="#one!">
+              <img src="./public/images/staff/30564.jpg">
+              <h5>Janine Koholer</h5>
+              <h6>Vice Principal/grade R Teacher</h6>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer id="contact" class="page-footer green">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="col l8 s12 footer-logo">
+          <br/>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+        <div class="col l4 s12">
+          <h5 class="white-text">Contact Us</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!"><strong>Telephone Number:</strong>  
+              <br/>
+              021 903 2135 / 021 903 2118</a></li>
+            <li><a class="white-text" href="#!"><strong>Cellphone Number:</strong>  
+              <br/>
+              Belinda 071 893 6528<br/>
+              Monica 072 563 2167</a></li>
+            <li><a class="white-text" href="#!"><strong>Address:</strong>  
+              <br/>
+              14 Blom Street Kuilsrivier<br/>
+              12 Lang Street Kuilsrivie</a></li>
+            <li><a class="white-text" href="#!">
+              <strong>Email:</strong>
+              <br/>
+              urshla.fairyland@outlook.com
+            </a>
+
+            </li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
@@ -159,6 +213,16 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+      });
 
-  </body>
+
+    
+    });
+  </script>
+</body>
+
 </html>

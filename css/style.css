@@ -19,6 +19,25 @@ p {
   color: #26a69a;
 }
 
+.logo {
+  background-image: url("../public/images/logo.png");
+  background-size: contain;
+  width: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.footer-logo {
+  background-image: url("../public/images/logo.png");
+  background-size: contain;
+  height: 20vh;
+  margin-top: 65px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -28,6 +47,11 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+
+.section-fixed{
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
